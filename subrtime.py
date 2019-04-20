@@ -1,0 +1,10 @@
+s1,v1=map(int,input().split())
+s2,v2=map(int,input().split())
+a=s1*60+v1
+b=s2*60+v2
+if(a>b):
+  c=a-b
+  print(c//60,c%60)
+else:
+  d=b-a
+  print(d//60,d%60)
