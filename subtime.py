@@ -1,0 +1,5 @@
+m=input().split()
+n=input().split()
+i=abs(int(m[0])-int(n[0]))
+j=abs(int(m[1])-int(n[1]))
+print(i,j)
