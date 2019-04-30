@@ -1,4 +1,4 @@
-x,y=input().split()
-y=int(y)
-for i in range(0,y):
-  print(x)
+a,b=input().split(maxsplit=1)
+b=int(b)
+for i in range(0,b):
+  print(a)
