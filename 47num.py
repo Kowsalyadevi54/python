@@ -1,0 +1,5 @@
+yk=int(input())
+np=input().split()
+a=min(np)
+b=min(np)
+print(a,b)
