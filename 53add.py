@@ -1,3 +1,6 @@
-m=input()
-t=[int(i) for i in m]
-print(sum(t))
+a=input()
+b=0
+for i in range(len(a)):
+  if(a[i].isdigit()):
+    b=b+int(a[i])
+    print(b)
